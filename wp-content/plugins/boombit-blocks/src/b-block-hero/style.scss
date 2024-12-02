@@ -1,0 +1,240 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ // Colores
+ $primary-color: #fc560c;
+ $secondary-color: #9645fa;
+ $tertiary-color: #16191e;
+ $fourth-color: #2a2e37;
+ $default-color: #000;
+ $default-secondary-color: #e9efe1;
+ 
+.wp-block-create-block-boombit-blocks {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+.boombit-hero-blocks {
+	background-repeat: no-repeat;
+	width:100%;
+	min-height: 1110px;
+	background-size: cover;
+	background-position: top center;
+	margin-top: -70px;
+	background-color: #2a2e37;
+	.boombit-hero-container{
+		display:flex;
+		
+		/**/
+		
+		@media screen and (min-width: 600px) {
+			justify-content: end;
+			padding-top: 14em;
+		  }
+
+		@media screen and (min-width: 1024px) {
+			justify-content: center;
+    		padding-top: 23em;
+		}
+
+		.boombit-hero-row{
+			flex-flow: row wrap;
+			width: 100%;
+			display: flex;
+			.col{
+
+				&.col-10 {
+					width:10%
+				}
+			
+				&.col-11 {
+					width: 11.111%
+				}
+			
+				&.col-12 {
+					width: 12.5%
+				}
+			
+				&.col-14 {
+					width: 14.285%
+				}
+			
+				&.col-16{
+					width: 16.666%
+				}
+			
+				&.col-20 {
+					width: 20%
+				}
+			
+				&.col-25 {
+					width: 25%
+				}
+			
+				&.col-30 {
+					width: 30%
+				}
+			
+				&.col-33 {
+					width: 33.333%
+				}
+			
+				&.col-40 {
+					width: 40%
+				}
+			
+				&.col-50 {
+					width: 50%
+				}
+			
+				&.col-60{
+					width: 60%
+				}
+			
+				&.col-66{
+					width: 66.666%
+				}
+			
+				&.col-70 {
+					width: 70%
+				}
+			
+				&.col-75{
+					width: 75%
+				}
+			
+				&.col-80 {
+					width: 80%
+				}
+			
+				&.col-83{
+					width: 83.333%
+				}
+			
+				&.col-90{
+					width: 90%
+				}
+			
+				&.col-100{
+					width: 100%
+				}
+
+				
+			}
+		}
+		.boombit-hero-title{
+			font-family: "Chakra Petch", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			text-transform: uppercase;
+			color: $primary-color;
+			line-height: 1;
+			margin-bottom: 35px;
+			@media screen and (min-width: 600px) {
+				
+			font-size: 1.4em;
+			  }
+			@media screen and (min-width: 1024px) {
+				
+				font-size: 2em;
+			  }
+
+			h1{
+				position:relative;
+				margin: 0;
+			}
+			span.dots{
+				margin-right: 70px;
+				&:before{
+					content: "";
+					position: absolute;
+					left: 4px;
+					top: 34%;
+					transform: translateY(-22%);
+					background-color: #e9efe1;
+					width: 27px;
+					height: 16px;
+					border-radius: 20px;
+				}
+				&:after{
+					content: "";
+					position: absolute;
+					left: 40px;
+					top: 34%;
+					transform: translateY(-22%);
+					background-color: #e9efe1;
+					width: 16px;
+					height: 16px;
+					border-radius: 50%;
+				}
+			}
+			span.highlight{
+				background: $primary-color;
+				background: linear-gradient(185deg, darken($primary-color,15%) 45%, darken( $secondary-color,10%) 85%);
+				display: block;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent; 
+			}
+		}
+
+		.boombit-hero-subtitle{
+			color:$default-secondary-color;
+			font-family: "Chakra Petch", sans-serif;
+			
+			font-style: normal;
+			text-transform: uppercase;
+			@media screen and (min-width: 600px) {
+				
+				font-size: 1.2em;
+				  }
+				@media screen and (min-width: 1024px) {
+					
+					font-size: 1.8em;
+				  }
+	
+			h2{
+				font-weight: 100;
+				margin: 0;
+			}
+
+			margin-bottom:35px;
+		}
+
+		.boombit-hero-description{
+			
+			color:$default-secondary-color;
+			font-family: "Roboto", sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			@media screen and (min-width: 600px) {
+				
+				font-size: 1.2em;
+				  }
+				@media screen and (min-width: 1024px) {
+					
+					font-size: 1.8em;
+				  }
+	
+		}
+
+		.boombit-hero-button{
+			background: $primary-color;
+			color:$default-secondary-color;
+			font-family: "Roboto", sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: 18px;
+			text-decoration: none;
+			padding: 13px 39px;
+			text-transform: uppercase;
+			border-radius: 30px;
+		}
+	}
+}

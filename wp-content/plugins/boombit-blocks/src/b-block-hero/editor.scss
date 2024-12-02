@@ -1,0 +1,69 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+// Colores
+$primary-color: #fc560c;
+$secondary-color: #9645fa;
+$tertiary-color: #16191e;
+$fourth-color: #2a2e37;
+$default-color: #000;
+$default-secondary-color: #e9efe1;
+
+
+.wp-block-create-block-boombit-blocks {
+	border: 1px dotted #f00;
+}
+
+.boombit-hero-blocks {
+	background-repeat: no-repeat;
+	width:100%;
+	min-height: 450px;
+	background-size: cover;
+	background-position: top center;
+	margin-top: -27px;
+	.boombit-hero-container{
+		display:flex;
+		justify-content: end;
+		.boombit-hero-title{
+			font-family: "Chakra Petch", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			text-transform: uppercase;
+			color: $primary-color;
+			font-size: 45px;
+			line-height: 1;
+			span{
+				background: $primary-color;
+				background: linear-gradient(182deg, darken($primary-color,8%) 60%, darken( $secondary-color,8%) 75%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+
+		.boombit-hero-subtitle{
+			color:$default-secondary-color;
+			font-family: "Chakra Petch", sans-serif;
+			
+			font-style: normal;
+			text-transform: uppercase;
+			font-size: 30px;
+			h2{
+				font-weight: 100;
+			}
+		}
+
+		.boombit-hero-description{
+			color:$default-secondary-color;
+				font-family: "Chakra Petch", sans-serif;
+				
+				font-style: normal;
+				text-transform: uppercase;
+				font-size: 20px;
+		}
+	}
+}

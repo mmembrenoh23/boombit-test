@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/boombit-blocks-features",
+	"version": "0.1.0",
+	"title": "Boombit Block Features",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": true
+	},
+	"attributes": {
+		"title":{
+			"type":"string",
+			"defaul":"title"
+		},
+		
+		"arrow_icon":{
+			"type":"number",
+			"default":6
+		},
+		"items": {
+			"type": "array",
+			"default": []
+		}
+		
+	},
+	"textdomain": "boombit-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

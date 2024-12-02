@@ -1,0 +1,62 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/b-block-hero/editor.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/b-block-hero/editor.scss (1) ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-boombit-blocks {
+  border: 1px dotted #f00;
+}
+
+.boombit-hero-blocks {
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 450px;
+  background-size: cover;
+  background-position: top center;
+  margin-top: -27px;
+}
+.boombit-hero-blocks .boombit-hero-container {
+  display: flex;
+  justify-content: end;
+}
+.boombit-hero-blocks .boombit-hero-container .boombit-hero-title {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fc560c;
+  font-size: 45px;
+  line-height: 1;
+}
+.boombit-hero-blocks .boombit-hero-container .boombit-hero-title span {
+  background: #fc560c;
+  background: linear-gradient(182deg, rgb(220.4780487805, 69.8634146341, 2.7219512195) 60%, rgb(127.5706806283, 29.2680628272, 248.9319371728) 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.boombit-hero-blocks .boombit-hero-container .boombit-hero-subtitle {
+  color: #e9efe1;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.boombit-hero-blocks .boombit-hero-container .boombit-hero-subtitle h2 {
+  font-weight: 100;
+}
+.boombit-hero-blocks .boombit-hero-container .boombit-hero-description {
+  color: #e9efe1;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/

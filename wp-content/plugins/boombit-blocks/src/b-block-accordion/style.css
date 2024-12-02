@@ -1,0 +1,161 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.wp-block-create-block-boombit-blocks {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+
+.boombit-blocks-accordion-row {
+  flex-flow: row wrap;
+  width: 100%;
+  display: flex;
+}
+
+.boombit-blocks-accordion-row .col.col-10 {
+  width: 10%;
+}
+
+.boombit-blocks-accordion-row .col.col-11 {
+  width: 11.111%;
+}
+
+.boombit-blocks-accordion-row .col.col-12 {
+  width: 12.5%;
+}
+
+.boombit-blocks-accordion-row .col.col-14 {
+  width: 14.285%;
+}
+
+.boombit-blocks-accordion-row .col.col-16 {
+  width: 16.666%;
+}
+
+.boombit-blocks-accordion-row .col.col-20 {
+  width: 20%;
+}
+
+.boombit-blocks-accordion-row .col.col-25 {
+  width: 25%;
+}
+
+.boombit-blocks-accordion-row .col.col-30 {
+  width: 30%;
+}
+
+.boombit-blocks-accordion-row .col.col-33 {
+  width: 33.333%;
+}
+
+.boombit-blocks-accordion-row .col.col-40 {
+  width: 40%;
+}
+
+.boombit-blocks-accordion-row .col.col-50 {
+  width: 50%;
+}
+
+.boombit-blocks-accordion-row .col.col-60 {
+  width: 60%;
+}
+
+.boombit-blocks-accordion-row .col.col-66 {
+  width: 66.666%;
+}
+
+.boombit-blocks-accordion-row .col.col-70 {
+  width: 70%;
+}
+
+.boombit-blocks-accordion-row .col.col-75 {
+  width: 75%;
+}
+
+.boombit-blocks-accordion-row .col.col-80 {
+  width: 80%;
+}
+
+.boombit-blocks-accordion-row .col.col-83 {
+  width: 83.333%;
+}
+
+.boombit-blocks-accordion-row .col.col-90 {
+  width: 90%;
+}
+
+.boombit-blocks-accordion-row .col.col-100 {
+  width: 100%;
+}
+
+.boombit-blocks-accordion {
+  background: #2a2e37;
+  color: #e9efe1;
+  padding-top: 50px;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-row {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-content-part {
+  text-align: right;
+  padding-right: 4.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-content-part .boombit-blocks-accordion-title {
+  font-size: 3.8em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-content-part .boombit-blocks-accordion-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  width: 20.2em;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-item {
+  margin-bottom: 10px;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-item .boombit-blocks-accordion-item-title {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #e9efe1;
+  color: #9645fa;
+  font-size: 1.8em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-item .boombit-blocks-accordion-item-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #e9efe1;
+  border-top: none;
+}
+
+.boombit-blocks-accordion .boombit-blocks-accordion-item.active .boombit-blocks-accordion-item-content {
+  display: block;
+  transition: 1.5s;
+}
+
+.remove-item {
+  margin-top: 5px;
+  color: red;
+}

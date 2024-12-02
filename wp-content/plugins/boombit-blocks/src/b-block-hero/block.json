@@ -1,0 +1,47 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/boombit-blocks-hero",
+	"version": "0.1.0",
+	"title": "Boombit Block Hero",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"urlimage": {
+			"type":"string",
+			"default": "https://via.placeholder.com/1669x1110"
+		},
+		"title": {
+			"type":"string",
+			"default": ""
+		},
+		"subtitle": {
+			"type":"string",
+			"default": ""
+		},
+		"description": {
+			"type":"string",
+			"default": "Please add some text here"
+		},
+		"button_text": {
+			"type":"string",
+			"default": ""
+		},
+
+		"button_url": {
+			"type":"string",
+			"default": ""
+		}
+		
+	},
+	"textdomain": "boombit-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

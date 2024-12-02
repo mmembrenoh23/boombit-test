@@ -1,0 +1,26 @@
+/* Editor de bloques Gutenberg */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.editor-styles-wrapper {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.wp-block {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.has-azul-principal-background-color {
+    background-color: #0073aa !important;
+    color: #fff !important;
+}
+
+.has-gris-claro-background-color {
+    background-color: #f4f4f4 !important;
+}

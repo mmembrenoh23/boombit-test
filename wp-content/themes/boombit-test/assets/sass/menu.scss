@@ -1,0 +1,39 @@
+.main-menu{
+    
+    .menu-boombit-test {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 15px;
+            a {
+                text-decoration: none;
+                color: $default-secondary-color;
+                font-weight: 400;
+                font-style: normal;
+                transition: color 0.3s;
+                font-family: $chakraPetch-font;
+                text-transform: uppercase;
+                position:relative;
+                padding-left: 3px;
+                font-size: 14px;
+                &:hover {
+                    color: $primary-color;
+                }
+                &::before {
+                    content: "•"; 
+                    position: absolute;
+                    left: 0;
+                    bottom: 0%;
+                    transform: translateY(-22%);
+                    font-size: 6px;
+                }
+                
+            }
+        }
+    }
+    
+}
+

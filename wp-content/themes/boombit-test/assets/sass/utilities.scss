@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    padding:0;
+}
+.text-center{
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    background-color: $fourth-color;
+    padding: 1px;
+    > p {
+        color:$default-secondary-color;
+    }
+}
+

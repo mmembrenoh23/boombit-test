@@ -1,0 +1,60 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.wp-block-create-block-boombit-blocks {
+  border: 1px dotted #f00;
+}
+
+.boombit-block-carousel-features {
+  background-color: #000;
+  /**/
+}
+
+.boombit-block-carousel-features .boombit-block-carousel-features-header {
+  background-image: url(../../img/Vector.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.boombit-block-carousel-features .boombit-block-carousel-features-container {
+  background-color: #fc560c;
+}
+
+.boombit-block-carousel-features .boombit-block-carousel-features-container .boombit-block-carousel-features-content {
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.boombit-block-carousel-features .boombit-block-carousel-features-container .boombit-block-carousel-features-content .boombit-block-carousel-features-item {
+  width: 250px;
+  min-width: 100%;
+  margin-bottom: 15px;
+}
+
+.boombit-block-carousel-features .boombit-block-carousel-features-container .boombit-block-carousel-features-content .boombit-block-carousel-features-item img {
+  width: 250px;
+}
+
+.boombit-block-carousel-features .boombit-block-carousel-features-container .boombit-block-carousel-features-content button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.remove-item {
+  margin-top: 5px;
+  color: red;
+}

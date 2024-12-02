@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/boombit-blocks-accordion",
+	"version": "0.1.0",
+	"title": "Boombit Block Accordion",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": true
+	},
+	"attributes": {
+		"title":{
+			"type":"string",
+			"defaul":"Add a title"
+		},
+		"content":{
+			"type":"string",
+			"defaul":"Add a content"
+		},
+		"icons": {
+			"type": "array",
+			"default": []
+		},
+		"items": {
+			"type": "array",
+			"default": []
+		}
+		
+	},
+	"textdomain": "boombit-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
